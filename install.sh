@@ -10,7 +10,7 @@
 echo "Installing Packages"
 
 apt update
-apt install openssh-server openssh-client neovim sudo net-tools wget curl -y
+apt install openssh-server openssh-client neovim sudo net-tools wget curl git -y
 apt upgrade -y
 
 # Download XAMPP:
