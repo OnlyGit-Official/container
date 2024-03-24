@@ -15,7 +15,7 @@ apt upgrade -y
 
 # Download XAMPP:
 
-wget $1/xampp.run
+wget http://192.168.50.50/xampp.run
 
 chmod +x ./xampp.run
 
