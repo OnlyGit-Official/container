@@ -32,6 +32,7 @@ chmod 777 /git
 # SSH
 
 ssh-keygen
+sleep 5
 cat /root/.ssh/id_rsa.pub > /root/.ssh/authorized_keys
 service ssh start
 
@@ -97,6 +98,7 @@ daemon	ALL=(ALL) NOPASSWD: ALL
 
 useradd -m -d /home/onlygit -s /bin/bash -G sudo onlygit
 
+sleep 5
 
 # Install XAMPP
 
