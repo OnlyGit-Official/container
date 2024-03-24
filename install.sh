@@ -15,10 +15,7 @@ apt upgrade -y
 
 # Download XAMPP:
 
-echo "Enter XAMPP installer script IP:"
-read ip
-
-wget $ip/xampp.run
+wget $1/xampp.run
 
 chmod +x ./xampp.run
 
