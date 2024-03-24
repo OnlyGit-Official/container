@@ -31,4 +31,5 @@ chmod 777 /git
 
 # SSH
 
-ssh-keygen
+ssh-keygen -t rsa -b 4096 -C "hardwaregore@onlygit.com" -N "" -q -f ~/.ssh/id_rsa
+
